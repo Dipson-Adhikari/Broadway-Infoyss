@@ -1,78 +1,193 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
-    height: 200px;
-    width: 100%;
-    position: absolute;
-
+    position: absolut;
 
     .top {
+        width: 100%;
+        height: 55px;
         background: linear-gradient(to left, #f09122 20%, #c4213a 80%);
-
         display: flex;
-        padding: 10px;
-        height: 54px;
-        position: relative;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        position: relative;
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 400px;
 
         .text {
             color: white;
         }
 
-        .button {
+        a {
+            text-decoration: none;
+        }
 
-            padding-left: 40px;
+        button {
+            color: white;
+            margin-left: 30px;
+            background-color: black;
+            width: 140px;
+            height: 35px;
+            border-radius: 4px;
+
 
         }
     }
 
     .mid {
         width: 100%;
-        background-color: white;
+        position: relative;
         height: 100px;
-        border-bottom: 1px solid rgb(0, 0, 0);
-      
+
+        img {
+            padding-left: 180px;
+            padding-top: 10px;
+        }
+
+    }
 
     .nav {
-        height: 40px;
-
+        border-top: 1px solid #eaeaea;
+        height: 55px;
         display: flex;
-        padding: 0px 155px;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
 
+
         a {
-            font-weight: 400px;
-            font-size: 1.2rem;
             text-decoration: none;
+
+            margin-left: 50px;
+            margin-right: 50px;
             color: black;
             font-family: "Source Sans 3", sans-serif;
+
+            font-weight: 600;
+
 
 
 
         }
 
         a:hover {
-            border-top: 1px solid rgb(0, 0, 255);
+            border-top: 1px solid blue;
             color: blue;
 
         }
-        
-
 
 
     }
 }
-.banner{
+
+.banner {
     width: 100%;
-    height:300px;
+    height: 450px;
     background-color: #f09122;
-    .left{
+    display: flex;
+
+    .left {
+
+        display: flex;
+        width: 40%;
+        height: 530px;
+        background-color: #274595;
+        color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-family: "libre baskerville";
+            font-weight: 600;
+            font-size: 40px;
+
+        }
+
+        button {
+            width: 220px;
+            height: 50px;
+            background-color: #81E9E6;
+            color: #274595;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #00BBB6;
+            color: white;
+        }
 
     }
 
+    p {
+        font-size: 15px;
+        padding-top: 25px;
+    }
+
+}
+
+.slider {
+    width: 53.7%;
+    height: 530px;
+
+}
+
+.right {
+
+    width: 26.5%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+
+    .top {
+        background-color: #2A6FDB;
+        width: 100%;
+        height: 50%;
+        color: white;
+        
+
+        .img {
+            width: 100%;
+            padding-left: 30px;
+            padding-top: 40px;
+        }
+        .mid-text{
+            font-size: 50px;
+            padding-left: 30px;
+            font-family: "Source Sans 3", sans-serif;
+        }
+        .bottom-text{
+            padding-left: 30px;
+            font-size: 18px;
+            font-family: "Source Sans 3", sans-serif;
+            
+        }
+    }
+
+    .bottom {
+        background-color: #81E9E6;
+        width: 100%;
+        height: 50%;
+        color: #274595;
+      
+        
+        .image{
+            width: 100%;
+            padding-left: 30px;
+            padding-top: 40px;
+        }
+        .mid-text{
+            font-size: 50px;
+            padding-left: 30px;
+            font-family: "Source Sans 3", sans-serif;
+        }
+        .bottom-text{
+            padding-left: 30px;
+            font-family: "Source Sans 3", sans-serif;
+            font-size:18px;
+        }
+    }
 }
